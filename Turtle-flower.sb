@@ -1,0 +1,15 @@
+GraphicsWindow.PenColor = "yellow"
+Turtle.X = 200
+Turtle.Y = 200
+Turtle.Speed = 8
+For i = 1 To 100 Step 2
+
+  Turtle.Move(i)
+Turtle.Turn (60)
+Turtle.Move(i)
+Turtle.Turn(150)
+
+Turtle.Move(i)
+Turtle.Turn(60)
+
+EndFor
